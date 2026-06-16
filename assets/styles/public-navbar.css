@@ -1,0 +1,118 @@
+.public-navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+.public-navbar-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.public-navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.public-navbar-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #3d6fff, #06142e);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  box-shadow: 0 10px 25px rgba(61, 111, 255, 0.25);
+}
+
+.public-navbar-brand h1 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 800;
+  color: #06142e;
+  letter-spacing: -0.5px;
+}
+
+.public-navbar-brand p {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.public-navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.public-navbar-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  transition: 0.2s ease;
+}
+
+.public-navbar-link:hover {
+  color: #3d6fff;
+}
+
+.public-navbar-button {
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: #3d6fff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  box-shadow: 0 10px 25px rgba(61, 111, 255, 0.25);
+  transition: 0.2s ease;
+}
+
+.public-navbar-button:hover {
+  background: #2857e8;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 760px) {
+  .public-navbar-menu {
+    gap: 14px;
+  }
+
+  .public-navbar-link:nth-child(2),
+  .public-navbar-link:nth-child(3) {
+    display: none;
+  }
+
+  .public-navbar-brand p {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .public-navbar-container {
+    padding: 14px 18px;
+  }
+
+  .public-navbar-menu {
+    gap: 10px;
+  }
+
+  .public-navbar-link {
+    display: none;
+  }
+
+  .public-navbar-button {
+    padding: 10px 14px;
+  }
+}

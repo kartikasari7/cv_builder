@@ -1,0 +1,371 @@
+.ats3-template {
+  width: 794px;
+  min-height: 1123px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  background: #ffffff;
+  color: #4b4b4b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  line-height: 1.45;
+  box-shadow: 0 16px 42px rgba(15, 23, 42, 0.16);
+}
+
+.ats3-template * {
+  box-sizing: border-box;
+}
+
+.ats3-sidebar {
+  min-height: 1123px;
+  padding: 28px 28px 40px;
+  background: #414141;
+  color: #ffffff;
+}
+
+.ats3-photo {
+  width: 142px;
+  height: 142px;
+  margin: 0 auto 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #b58c67;
+}
+
+.ats3-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ats3-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ats3-photo-placeholder span {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.ats3-side-section {
+  margin-top: 26px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.ats3-side-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.ats3-side-section h2 {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+.ats3-side-section p {
+  margin: 0;
+  color: #f1f1f1;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.ats3-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ats3-link-list strong {
+  display: block;
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.ats3-link-list span {
+  display: block;
+  color: #ffffff;
+  font-size: 11.5px;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+.ats3-reference h3 {
+  margin: 0 0 6px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ats3-reference p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+.ats3-side-list {
+  margin: 0;
+  padding-left: 14px;
+  color: #ffffff;
+  list-style-type: disc;
+}
+
+.ats3-side-list li {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 11.5px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.ats3-main {
+  padding: 54px 38px 48px;
+  background: #ffffff;
+}
+
+.ats3-header {
+  display: grid;
+  grid-template-columns: 1fr 245px;
+  gap: 28px;
+  align-items: start;
+  margin-bottom: 44px;
+}
+
+.ats3-header h1 {
+  margin: 0 0 6px;
+  color: #3f3f3f;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 1px;
+  white-space: pre-line;
+}
+
+.ats3-header > div:first-child > p {
+  margin: 0;
+  color: #6c6c6c;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.ats3-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.ats3-contact-item {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 8px;
+  align-items: start;
+}
+
+.ats3-contact-item span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #32323a;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.ats3-contact-item p {
+  margin: 0;
+  color: #777777;
+  font-size: 10.5px;
+  line-height: 1.35;
+}
+
+.ats3-main-section {
+  margin-top: 42px;
+}
+
+.ats3-main-section:first-of-type {
+  margin-top: 0;
+}
+
+.ats3-main-section h2 {
+  margin: 0 0 22px;
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid #555555;
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ats3-timeline-item {
+  display: grid;
+  grid-template-columns: 125px 22px 1fr;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.ats3-timeline-left h3 {
+  margin: 0 0 2px;
+  color: #4b4b4b;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ats3-timeline-left p {
+  margin: 0;
+  color: #777777;
+  font-size: 11px;
+}
+
+.ats3-timeline-left span {
+  display: block;
+  margin-top: 2px;
+  color: #777777;
+  font-size: 10.5px;
+}
+
+.ats3-timeline-line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ats3-timeline-line::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: -30px;
+  width: 1px;
+  background: #505050;
+}
+
+.ats3-timeline-item:last-child .ats3-timeline-line::before {
+  bottom: 0;
+}
+
+.ats3-timeline-line span {
+  position: relative;
+  z-index: 2;
+  width: 9px;
+  height: 9px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: #505050;
+}
+
+.ats3-timeline-right h3 {
+  margin: 0 0 8px;
+  color: #4b4b4b;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.ats3-timeline-right ul {
+  margin: 0;
+  padding-left: 14px;
+  list-style-type: disc;
+}
+
+.ats3-timeline-right li {
+  margin-bottom: 3px;
+  color: #777777;
+  font-size: 11.5px;
+  line-height: 1.35;
+}
+
+.ats3-bar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 46px;
+  row-gap: 14px;
+}
+
+.ats3-bar-item p {
+  margin: 0 0 6px;
+  color: #777777;
+  font-size: 10.5px;
+  text-transform: uppercase;
+}
+
+.ats3-bar {
+  width: 100%;
+  height: 4px;
+  background: #eeeeee;
+}
+
+.ats3-bar span {
+  display: block;
+  height: 100%;
+  background: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+  .ats3-template {
+    width: 720px;
+    grid-template-columns: 230px 1fr;
+  }
+
+  .ats3-main {
+    padding: 46px 32px;
+  }
+
+  .ats3-header {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  .ats3-template {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    margin: 0 !important;
+    grid-template-columns: 63mm 1fr !important;
+    box-shadow: none !important;
+    font-size: 10pt !important;
+  }
+
+  .ats3-sidebar {
+    min-height: 297mm !important;
+    padding: 8mm 7mm 10mm !important;
+    background: #414141 !important;
+  }
+
+  .ats3-main {
+    padding: 13mm 10mm !important;
+  }
+
+  .ats3-template,
+  .ats3-template * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .ats3-photo {
+    width: 33mm !important;
+    height: 33mm !important;
+  }
+
+  .ats3-header h1 {
+    font-size: 25pt !important;
+  }
+}

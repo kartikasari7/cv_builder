@@ -1,0 +1,388 @@
+.ats4-template {
+  width: 794px;
+  min-height: 1123px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  background: #ffffff;
+  color: #182033;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.55;
+  border: 1px solid #d7dce5;
+  box-shadow: 0 16px 42px rgba(15, 23, 42, 0.16);
+}
+
+.ats4-template * {
+  box-sizing: border-box;
+}
+
+.ats4-sidebar {
+  padding: 26px 28px 30px;
+  background: #f7f9fc;
+  border-right: 1px solid #d7dce5;
+}
+
+.ats4-korean-title {
+  margin-bottom: 38px;
+  color: #1c2e53;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+
+.ats4-photo {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 42px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #e4e9f2;
+}
+
+.ats4-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ats4-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ats4-photo-placeholder span {
+  color: #1f3d70;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.ats4-side-section {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid #ccd5e3;
+}
+
+.ats4-side-section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.ats4-side-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.ats4-side-heading span {
+  width: 22px;
+  color: #173c77;
+  font-size: 17px;
+}
+
+.ats4-side-heading h2 {
+  position: relative;
+  flex: 1;
+  margin: 0;
+  color: #173c77;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.ats4-side-heading h2::after {
+  content: "";
+  position: absolute;
+  left: 86px;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: #8fa1bd;
+}
+
+.ats4-info-row {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.ats4-info-row strong {
+  color: #15233a;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.ats4-info-row span {
+  color: #1d2638;
+  font-size: 12px;
+}
+
+.ats4-rating-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ats4-rating-item {
+  display: grid;
+  grid-template-columns: 1fr 108px;
+  align-items: center;
+  gap: 12px;
+}
+
+.ats4-rating-item span {
+  color: #1d2638;
+  font-size: 12px;
+}
+
+.ats4-rating-item div {
+  display: flex;
+  gap: 7px;
+}
+
+.ats4-rating-item i {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #173c77;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.ats4-rating-item i.active {
+  background: #173c77;
+}
+
+.ats4-side-bullets {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.ats4-side-bullets li {
+  margin-bottom: 9px;
+  color: #1d2638;
+  font-size: 11.5px;
+}
+
+.ats4-main {
+  padding: 36px 36px 34px;
+  background: #ffffff;
+}
+
+.ats4-header {
+  margin-bottom: 36px;
+}
+
+.ats4-apply {
+  margin-bottom: 46px;
+  color: #172033;
+  font-size: 14px;
+  text-align: right;
+}
+
+.ats4-name-block {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 18px;
+}
+
+.ats4-name-block h1 {
+  margin: 0;
+  color: #111a32;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.ats4-name-block span {
+  color: #9da5b5;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.ats4-header h2 {
+  margin: 0 0 18px;
+  color: #173c77;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.ats4-header p {
+  margin: 0;
+  color: #1e293b;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.ats4-main-section {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid #cdd5df;
+}
+
+.ats4-main-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.ats4-main-heading span {
+  width: 26px;
+  color: #173c77;
+  font-size: 18px;
+}
+
+.ats4-main-heading h2 {
+  margin: 0;
+  color: #173c77;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.ats4-row {
+  display: grid;
+  grid-template-columns: 135px 1fr;
+  gap: 26px;
+  margin-bottom: 22px;
+}
+
+.ats4-row-period {
+  color: #173c77;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.ats4-row-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.ats4-row-top strong {
+  color: #111827;
+  font-size: 13.5px;
+  font-weight: 800;
+}
+
+.ats4-row-top span {
+  flex-shrink: 0;
+  color: #111827;
+  font-size: 12px;
+}
+
+.ats4-row-content p {
+  margin: 6px 0 0;
+  color: #1f2937;
+  font-size: 12px;
+}
+
+.ats4-row-content ul {
+  margin: 8px 0 0;
+  padding-left: 16px;
+}
+
+.ats4-row-content li {
+  margin-bottom: 4px;
+  color: #111827;
+  font-size: 12px;
+}
+
+.ats4-cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-top: 1px solid transparent;
+}
+
+.ats4-cert-item {
+  padding: 0 14px;
+  border-left: 1px solid #b8c3d2;
+}
+
+.ats4-cert-item:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.ats4-cert-item strong,
+.ats4-cert-item span,
+.ats4-cert-item small {
+  display: block;
+  color: #111827;
+  font-size: 11.5px;
+  line-height: 1.35;
+}
+
+.ats4-cert-item strong {
+  font-weight: 700;
+}
+
+.ats4-cert-item small {
+  margin-top: 4px;
+}
+
+.ats4-intro {
+  margin: 0;
+  color: #111827;
+  font-size: 12.5px;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .ats4-template {
+    width: 720px;
+    grid-template-columns: 230px 1fr;
+  }
+
+  .ats4-main {
+    padding: 32px 28px;
+  }
+
+  .ats4-name-block h1 {
+    font-size: 36px;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  .ats4-template {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    margin: 0 !important;
+    grid-template-columns: 65mm 1fr !important;
+    box-shadow: none !important;
+    border: 1px solid #d7dce5 !important;
+    font-size: 10pt !important;
+  }
+
+  .ats4-sidebar {
+    padding: 8mm 7mm !important;
+    background: #f7f9fc !important;
+  }
+
+  .ats4-main {
+    padding: 9mm 9mm !important;
+  }
+
+  .ats4-template,
+  .ats4-template * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .ats4-photo {
+    width: 34mm !important;
+    height: 34mm !important;
+  }
+
+  .ats4-name-block h1 {
+    font-size: 30pt !important;
+  }
+}

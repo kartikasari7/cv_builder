@@ -1,0 +1,291 @@
+.ats2-template {
+  width: 794px;
+  min-height: 1123px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  background: #ffffff;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  line-height: 1.36;
+  box-shadow: 0 16px 42px rgba(15, 23, 42, 0.16);
+}
+
+.ats2-template * {
+  box-sizing: border-box;
+}
+
+.ats2-sidebar {
+  min-height: 1123px;
+  padding: 42px 28px;
+  background: #263f5d;
+  color: #ffffff;
+}
+
+.ats2-name-block h1 {
+  margin: 0 0 34px;
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 800;
+  line-height: 1.42;
+  letter-spacing: 1px;
+  white-space: pre-line;
+}
+
+.ats2-side-section {
+  margin-top: 34px;
+}
+
+.ats2-side-section h2 {
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.ats2-side-list,
+.ats2-course-list {
+  margin: 0;
+  padding-left: 14px;
+  color: #ffffff;
+  list-style-type: disc;
+}
+
+.ats2-side-list li {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.ats2-course-list li {
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.ats2-course-list strong {
+  display: block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.ats2-course-list span,
+.ats2-course-list small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 11.5px;
+}
+
+.ats2-main {
+  padding: 46px 42px 44px;
+  background: #ffffff;
+}
+
+.ats2-top {
+  margin-bottom: 26px;
+}
+
+.ats2-top h2 {
+  margin: 0 0 18px;
+  color: #5da0ff;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.ats2-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  color: #333333;
+  font-size: 13px;
+}
+
+.ats2-main-section {
+  margin-top: 28px;
+  padding-top: 26px;
+  border-top: 1px solid #d7d7d7;
+}
+
+.ats2-main-section:first-of-type {
+  margin-top: 0;
+}
+
+.ats2-main-section h2 {
+  margin: 0 0 16px;
+  color: #111111;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.ats2-main-section p {
+  margin: 0;
+  color: #2d2d2d;
+}
+
+.ats2-exp-item {
+  margin-bottom: 24px;
+}
+
+.ats2-exp-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.ats2-exp-head h3 {
+  margin: 0 0 2px;
+  color: #5da0ff;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.ats2-exp-head strong {
+  display: block;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.ats2-exp-meta {
+  min-width: 170px;
+  text-align: right;
+}
+
+.ats2-exp-meta span {
+  display: block;
+  margin-bottom: 4px;
+  color: #666666;
+  font-size: 13px;
+}
+
+.ats2-main-list {
+  margin: 0;
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.ats2-main-list li {
+  margin-bottom: 7px;
+  color: #111111;
+  font-size: 13.3px;
+  line-height: 1.35;
+}
+
+.ats2-edu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.ats2-edu-item h3 {
+  margin: 0 0 2px;
+  color: #5da0ff;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.ats2-edu-item strong {
+  display: block;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.ats2-edu-meta {
+  min-width: 205px;
+  text-align: right;
+}
+
+.ats2-edu-meta span {
+  display: block;
+  margin-bottom: 4px;
+  color: #666666;
+  font-size: 13px;
+}
+
+.ats2-reference-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ats2-reference-item strong {
+  display: block;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.ats2-reference-item p {
+  margin-top: 8px;
+  color: #333333;
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .ats2-template {
+    width: 720px;
+    grid-template-columns: 225px 1fr;
+  }
+
+  .ats2-sidebar {
+    padding: 36px 24px;
+  }
+
+  .ats2-main {
+    padding: 40px 34px;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  .ats2-template {
+    width: 210mm !important;
+    min-height: 297mm !important;
+    margin: 0 !important;
+    grid-template-columns: 62mm 1fr !important;
+    box-shadow: none !important;
+    font-size: 10.5pt !important;
+  }
+
+  .ats2-sidebar {
+    min-height: 297mm !important;
+    padding: 11mm 7mm !important;
+    background: #263f5d !important;
+  }
+
+  .ats2-main {
+    padding: 12mm 10mm !important;
+  }
+
+  .ats2-template,
+  .ats2-template * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .ats2-name-block h1 {
+    font-size: 24pt !important;
+  }
+
+  .ats2-main-section h2 {
+    font-size: 14pt !important;
+  }
+}
